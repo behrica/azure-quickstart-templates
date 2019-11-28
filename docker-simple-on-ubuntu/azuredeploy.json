@@ -42,19 +42,19 @@
     },
     "authenticationType": {
       "type": "string",
-      "defaultValue": "sshPublicKey",
+      "defaultValue": "password",
       "allowedValues": [
         "sshPublicKey",
         "password"
       ],
       "metadata": {
-        "description": "Type of authentication to use on the Virtual Machine. SSH key is recommended."
+        "description": "Type of authentication to use on the Virtual Machine"
       }
     },
     "adminPasswordOrKey": {
       "type": "securestring",
       "metadata": {
-        "description": "SSH Key or password for the Virtual Machine. SSH key is recommended."
+        "description": "Pasword or SSH Key or password for the Virtual Machine."
       }
     }
   },
